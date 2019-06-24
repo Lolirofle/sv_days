@@ -1,0 +1,134 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 23-Dec-2014, 13:38:19
+    Author     : asanka
+*/
+
+@font-face {
+    font-family: 'latoregular';
+    src: url('../fonts/lato_regular/lato-reg-webfont.eot');
+    src: url('../fonts/lato_regular/lato-reg-webfont.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/lato_regular/lato-reg-webfont.woff') format('woff'),
+        url('../fonts/lato_regular/lato-reg-webfont.ttf') format('truetype'),
+        url('../fonts/lato_regular/lato-reg-webfont.svg#latoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'latobold';
+    src: url('../fonts/lato_bold/lato-bold-webfont.eot');
+    src: url('../fonts/lato_bold/lato-bold-webfont.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/lato_bold/lato-bold-webfont.woff') format('woff'),
+        url('../fonts/lato_bold/lato-bold-webfont.ttf') format('truetype'),
+        url('../fonts/lato_bold/lato-bold-webfont.svg#latobold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'open_sansitalic';
+    src: url('../fonts/open_sans_italic/opensans-italic_0-webfont.eot');
+    src: url('../fonts/open_sans_italic/opensans-italic_0-webfont.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/open_sans_italic/opensans-italic_0-webfont.woff') format('woff'),
+        url('../fonts/open_sans_italic/opensans-italic_0-webfont.ttf') format('truetype'),
+        url('../fonts/open_sans_italic/opensans-italic_0-webfont.svg#open_sansitalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'open_sanslight';
+    src: url('../fonts/open_sans_light/opensans-light-webfont.eot');
+    src: url('../fonts/open_sans_light/opensans-light-webfont.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/open_sans_light/opensans-light-webfont.woff') format('woff'),
+        url('../fonts/open_sans_light/opensans-light-webfont.ttf') format('truetype'),
+        url('../fonts/open_sans_light/opensans-light-webfont.svg#open_sanslight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'open_sansregular';
+    src: url('../fonts/open_sans_regular/opensans-regular-webfont.eot');
+    src: url('../fonts/open_sans_regular/opensans-regular-webfont.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/open_sans_regular/opensans-regular-webfont.woff') format('woff'),
+        url('../fonts/open_sans_regular/opensans-regular-webfont.ttf') format('truetype'),
+        url('../fonts/open_sans_regular/opensans-regular-webfont.svg#open_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'open_sanssemibold';
+    src: url('../fonts/open_sans_semibold/opensans-semibold-webfont.eot');
+    src: url('../fonts/open_sans_semibold/opensans-semibold-webfont.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/open_sans_semibold/opensans-semibold-webfont.woff') format('woff'),
+        url('../fonts/open_sans_semibold/opensans-semibold-webfont.ttf') format('truetype'),
+        url('../fonts/open_sans_semibold/opensans-semibold-webfont.svg#open_sanssemibold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'pt_sans_narrowregular';
+    src: url('../fonts/pt_sans_narrow/ptn57f-webfont.eot');
+    src: url('../fonts/pt_sans_narrow/ptn57f-webfont.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/pt_sans_narrow/ptn57f-webfont.woff') format('woff'),
+        url('../fonts/pt_sans_narrow/ptn57f-webfont.ttf') format('truetype'),
+        url('../fonts/pt_sans_narrow/ptn57f-webfont.svg#pt_sans_narrowregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+h1,
+.footer-col,
+.page-main-heading,
+.main,
+.main .donate-now-wrapper,
+.main a.green-button,
+.main a.gray-button,
+.main-visual,
+.main input[type="text"],
+.main input[type="email"],
+.main input[type="password"],
+.main textarea{
+    font-family: open_sansregular,latoregular,Arial;
+}
+.main h2, 
+.main h3, 
+.main h4,
+.main .events .evetnt-slider .content,
+.events-location .jcarousel-wrapper .content-wrapper,
+.tab-wrapper .tab-heading-wrapper > li a,
+aside .aside-news p{
+    font-family: open_sanslight,latoregular,Arial;
+}
+.latest-happenings .latest-happening-inner-wrapper .content .date{
+    font-family: open_sansitalic,latoregular,Arial;
+}
+.main .form-row label,
+.main .color-boxes-wrapper .color-box .signature{
+    font-family: open_sanssemibold,latoregular,Arial;
+}
+header,
+.main-container .second-menu .menu,
+.nav-wrapper nav{
+    font-family: latoregular,open_sansregular,Arial;
+}
+#copyrights,
+.paging span a{
+    font-family: Arial,latoregular,open_sansregular;
+}
+#defaultCountdown{
+    font-family: latobold,open_sansregular,Arial;
+}
+.main .welcome-message {
+    font-family: pt_sans_narrowregular,open_sansregular,latoregular;
+}
+.bussiness-wrapper ul li a {
+font-family: open_sanslight,latoregular,Arial;
+}

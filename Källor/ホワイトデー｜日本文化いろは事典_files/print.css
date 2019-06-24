@@ -1,0 +1,63 @@
+body{
+ font-size:80%;
+}
+
+image{
+ border:0;
+}
+
+h3{
+ font-size:100%;
+ margin-top:0;
+ margin-bottom:10px;
+}
+
+h4{
+ font-size:100%;
+ margin:0;
+}
+
+p{
+ margin-top:0;
+ margin-bottom:10px;
+}
+
+
+/* //検索// */
+.search{
+display:none;
+}
+
+/* //プリントボタン// */
+.print{
+display:none;
+}
+
+/* /Google AdSence/ */
+.google_adsense{
+ display:none;
+}
+
+/* //セッション// */
+.session{
+ display:none;
+}
+
+/* //左（ナビゲーション）// */
+.navi{
+ display:none;
+}	 
+
+/* ページの先頭へボタン */
+.pagetop{
+ display:none;
+}
+
+/* W3C */
+.w3c{
+ display:none;
+}
+
+.pankuzu{
+ display:none;
+}
