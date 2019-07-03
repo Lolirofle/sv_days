@@ -10,3 +10,4 @@ extern crate icalendar;
 pub mod chrono_util;
 pub mod dates;
 pub mod ical;
+pub mod icalendar_util;

@@ -45,7 +45,7 @@ pub fn date_of_next_weekday_or_today(weekday: Weekday,date: NaiveDate) -> Option
 pub fn month_succ(date: NaiveDate) -> Option<NaiveDate>{
 	match date.month(){
 		12 => date.with_month(01).and_then(|date| date.with_year(date.year()+1)),
-		m  => date.with_month(date.month()+1)
+		m  => date.with_month(m+1)
 	}
 }
 
